@@ -27,7 +27,7 @@ export const getRpcUrl = (chainId: number) => {
     case 56:
       return "https://bsc-dataseed2.binance.org";
     case 5:
-      return "https://eth-goerli.g.alchemy.com/v2/K9IsbfM7Z0jHrR5VTyg0rOsu0ghafL9D";
+      return "https://goerli.blockpi.network/v1/rpc/public";
     case 1:
       return "https://ethereum.publicnode.com";
     default:
@@ -162,7 +162,7 @@ const getJsonRpcProvider = (chainId: number) => {
     case 56:
       return "https://bsc-dataseed2.binance.org";
     case 5:
-      return "https://eth-goerli.g.alchemy.com/v2/K9IsbfM7Z0jHrR5VTyg0rOsu0ghafL9D";
+      return "https://goerli.blockpi.network/v1/rpc/public";
     case 1:
       return "https://ethereum.publicnode.com";
     default:
